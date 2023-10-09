@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initail-scale=1.0">
+		<title>All Products - GD15x</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+	</head>
+
+
+	<body class="header">
+	
+		
+		<div class="contr">
+			<div class="navbar">
+		     <div class="logo">
+		 	   <img src="Logo-Gd15x.png" width="125px">
+		  </div>
+		  <nav>
+		 	 <ul id="MenuItems">
+		 	 	<li><a href="Gd15x-.html">HOME</a></li>
+		 		<li><a href="">PRODUCTS</a></li>
+		 		<li><a href="">ABOUT</a></li>
+		 		<li><a href="">CONTACT</a></li>
+		 		<li><a href="">ACCOUNT</a></li>
+		 	</ul>
+		 </nav>
+	  <img src="shopping-cart.png" width="30px" height="30px">
+	  <img src="website.png" width="30px" height="30px" class="menu-icon" 
+	  onclick="menutoggle()">
+	 
+	</div>
+<!---------Singel Product Details--------->
+   
+
+
+
+   <div class="small-container">
+   	<div class="row">
+   		<div class="col-1">
+   		
+   		<img src="lolp0.png" width= '400px'; id="ProductImg">
+   		<div class="small-img-row">
+   			<div class="small-img-col">
+   				<img src="lolp0.png" width="60px" class="SmallImg">
+   			</div>
+   			
+   			<div class="small-img-col">
+   				<img src="lolp000.png" width="60px" class="SmallImg">
+   			</div>
+   			
+
+
+
+
+   		</div>
+
+
+
+
+   		</div>
+   		<div>
+   			<div class="col-20">
+   				<p class="col-20">Home / Bucket Hat</p>
+   			<h1 class="col-20">Gd15X<br>Bucket Hat</h1>
+   			<h4 class="col-20">$14.99</h4>
+   		
+
+   			<select class="row-10">
+   				<option>Select Size</option>
+   				<option>XXL</option>
+   				<option>XL</option>
+   				<option>L</option>
+   				<option>M</option>
+   				<option>S</option>
+   				<option>XS</option>
+   			</select>
+   			
+   				<input type="number" value="1" class="text-11">
+   			
+   			
+
+   			</div>
+   			<a href="cart.html" class="btn-2">Add To Cart</a>
+   			<h5 class="pop-22">Product Details<h5><h6 class="pop-21"><br>The bucket hat in question is made from a durable and easy-to-maintain synthetic material, <br>likely polyester, with a classic design featuring black and beige colors. <br>Its wide, downward-sloping brim offers effective sun protection, making it suitable for outdoor activities, <br> while the neutral colors ensure versatility and easy coordination with various outfits</h6>
+   			
+   		</div>
+   	</div>
+   </div>
+   
+
+
+
+
+
+	
+		
+		
+			
+			
+		
+
+		
+			
+
+			
+<!--------Footer--------->
+<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					   <h3>Download Our App</h3>
+					   <p>Download App For Android and ios mobile phone.</p>
+					   <div class="app-logo">
+					   	<img src="apple store png.png" width="130px" height="49px" >
+					   	<img src="playstore png.png" width="190px" height="69px">
+					   </div>
+					</div>
+					<div class="footer-col-2">
+						<img src="Logo-Gd15x.png" class="" width="201px" height="90px">
+						<p>Our purpose is to give you cloths that are 
+						cheap and comftarble.</p>
+					</div>
+					<div class="footer-col-3">
+					    <h3>usefull Links</h3>
+					    <ul>
+					    <li>Coupons</li>
+					    <li>Blog post</li>
+					    <li>Return Policy</li>
+					    <li>Coupons</li>
+					    </ul>
+					  </div>
+					<div class="footer-col-4">
+					    <h3>Follow us</h3>
+					    <ul>
+					    <li>Facebook</li>
+					    <li>Twitter</li>
+					    <li>Instagram</li>
+					    <li>YouTube</li>
+					    </ul>
+					  </div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+				
+<script>
+
+var MenuItems = document.getElementById("MenuItems")
+
+MenuItems.style.maxHeight = "0px";
+
+function menutoggle()  {
+
+	if (MenuItems.style.maxHeight == "0px")
+	 {
+
+	MenuItems.style.maxHeight = "200px";
+
+	}
+
+	else 
+	{
+		MenuItems.style.maxHeight = "0px";
+	}
+
+
+}
+
+  
+
+</script>
+
+<script>
+	var ProductImg = document.getElementById("ProductImg");
+	var SmallImg = document.getElementsByClassName("SmallImg");
+
+		SmallImg[0].onclick = function(){
+			ProductImg.src = SmallImg[0].src;
+		}
+		SmallImg[1].onclick = function(){
+			ProductImg.src = SmallImg[1].src;
+		}
+
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html

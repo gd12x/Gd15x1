@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initail-scale=1.0">
+		<title>All Products - GD15x</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+	</head>
+
+
+	<body class="header">
+	
+		
+		<div class="contr" >
+			<div class="navbar">
+		     <div class="logo">
+		 	   <img src="Logo-Gd15x.png" width="125px">
+		  </div>
+		  <nav>
+		 	 <ul id="MenuItems">
+		 	 	<li><a href="Gd15x-.html">HOME</a></li>
+		 		<li><a href="products.html">PRODUCTS</a></li>
+		 		<li><a href="">ABOUT</a></li>
+		 		<li><a href="">CONTACT</a></li>
+		 		<li><a href="">ACCOUNT</a></li>
+		 	</ul>
+		 </nav>
+	  <a href="Cart.html"><img src="shopping-cart.png" width="30px" height="30px"></a>
+	  <img src="website.png" width="30px" height="30px" class="menu-icon" 
+	  onclick="menutoggle()">
+	 
+	</div>
+<!--------- account page --------->
+<div class="account-page">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-2">
+				<div class="form-container">
+					<div class="form-btn">
+						<span onclick="login()">Login</span>
+						<span onclick="register()">Register</span>
+						<hr id="Indicator">
+
+					</div>
+					<form id="LoginForm">
+						<input type="text" placeholder="Username">
+						<input type="password" placeholder="password" >
+						<button type="submit" class="btn">Login</button>
+						<a href="">Forgot password</a>
+					</form>
+					<form id="RegForm">
+						<input type="text" placeholder="Username">
+						<input type="email" placeholder="Email">
+						<input type="password" placeholder="password" >
+						<button type="submit" class="btn">Register</button>
+						
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+			
+
+			
+<!--------Footer--------->
+<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					   <h3>Download Our App</h3>
+					   <p>Download App For Android and ios mobile phone.</p>
+					   <div class="app-logo">
+					   	<img src="apple store png.png" width="130px" height="49px" >
+					   	<img src="playstore png.png" width="190px" height="69px">
+					   </div>
+					</div>
+					<div class="footer-col-2">
+						<img src="Logo-Gd15x.png" class="" width="201px" height="90px">
+						<p>Our purpose is to give you cloths that are 
+						cheap and comftarble.</p>
+					</div>
+					<div class="footer-col-3">
+					    <h3>usefull Links</h3>
+					    <ul>
+					    <li>Coupons</li>
+					    <li>Blog post</li>
+					    <li>Return Policy</li>
+					    <li>Coupons</li>
+					    </ul>
+					  </div>
+					<div class="footer-col-4">
+					    <h3>Follow us</h3>
+					    <ul>
+					    <li>Facebook</li>
+					    <li>Twitter</li>
+					    <li>Instagram</li>
+					    <li>YouTube</li>
+					    </ul>
+					  </div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+				
+<!--------Js For Toggle Form--------->
+
+	<script>
+		var LoginForm = document.getElementById("LoginForm");
+		var RegForm = document.getElementById("RegForm");
+		var Indicator = document.getElementById("Indicator");
+	
+
+		function register(){
+			RegForm.style.transform = "translateX(0px)";
+			LoginForm.style.transform = "translateX(0px)";
+			Indicator.style.transform = "translateX(100px)";
+
+		}
+		function login(){
+			RegForm.style.transform = "translateX(300px)";
+			LoginForm.style.transform = "translateX(300px)";
+			Indicator.style.transform = "translateX(0px)";
+		}
+
+
+
+
+
+	</script>
+
+</body>
+</html
